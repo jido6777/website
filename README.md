@@ -6,7 +6,9 @@
 
 ---
 
-![Preview](assets/preview.png)
+![Hero](assets/preview-hero.png)
+
+![Johnny](assets/preview-johnny.png)
 
 ---
 
