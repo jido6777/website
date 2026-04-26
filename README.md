@@ -8,7 +8,7 @@
 
 A single-file portfolio built to feel like jacking into the NET. Glitch effects, terminal animations, a Cyberpunk 2077-inspired visual system and a background music player with real-time audio visualization.
 
-Live at → [jido6777.github.io/website](https://jido6777.github.io/website) *(or your deployed URL)*
+Live at → [jido6777.github.io/website](https://jido6777.github.io/website) 
 
 ---
 
