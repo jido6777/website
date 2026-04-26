@@ -103,7 +103,7 @@ The terminal content, project cards, language chips and contact links are all pl
 ## // Credits
 
 - Aesthetic inspired by **Cyberpunk 2077** (CD Projekt Red)
-- Background music: *The Rebel Path* (CP2077 OST)
+- Background music: *The Rebel Path - Johnny Silverhand´s ending* (CP2077 OST)
 - Fonts: [Google Fonts](https://fonts.google.com)
 
 ---
