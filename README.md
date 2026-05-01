@@ -23,6 +23,7 @@ Live at → [jido6777.github.io/website](https://jido6777.github.io/website)
 - **"hacking" → "hacked"** — The nav status label reads `// hacking` with a pulsing magenta glow while you browse. The moment the hack completes it permanently switches to `// hacked` in cyan — no reset
 - **Contact video reveal** — A background video plays when you scroll to the contact section; links slam in one by one when it ends
 - **Music player** — Background audio with Web Audio API. The bars sync to the actual frequency data of the track in real time
+- **Language switch (EN / ES)** — Toggle between English and Spanish at any time. Every section translates — hero, about, skills, language chips, projects, contact and footer. Triggers a full-screen glitch flash on switch
 - **Fully responsive** — Works on mobile and desktop
 
 ---
@@ -65,7 +66,20 @@ No build step. No npm. Open `index.html` and it runs.
 | `#skills` | 002 — Arsenal | Tech stack card |
 | `#languages` | 003 — Communication Protocols | Language chips with proficiency dots |
 | `#projects` | 004 — Active Contracts | Project cards with status indicators |
-| `#contact` | 005 — Secure Channel | Links + contact video reveal |
+| `#contact` | 005 — Secure Channel | Links + contact video reveal + freelance callout |
+
+---
+
+## // UI Details
+
+### Language switch — neon glow
+The `EN / ES` toggle in the nav has a continuous pulsing neon glow (`box-shadow` animation). The border breathes between a dim and fully saturated yellow, and intensifies on hover. Glitch flash fires on every switch.
+
+### Language chips — fully translated
+The operative languages section (`#languages`) translates completely on switch — chip names, proficiency labels (Native / Advanced / Basic) and section headers all update in both directions.
+
+### Freelance callout — live dot
+The red dot next to `OPEN FOR CONTRACTS` animates like a real indicator light: it blinks from near-off to full intensity on a cycle, with a subtle expanding ring on peak brightness — closer to a hardware LED than a CSS pulse.
 
 ---
 
@@ -97,6 +111,8 @@ All CSS variables are defined in `:root` at the top of the `<style>` block:
 ```
 
 The terminal content, project cards, language chips and contact links are all plain HTML — easy to edit without touching any logic.
+
+Translations for both languages live in the `translations` object inside the `<script>` block — each key maps directly to a section element.
 
 ---
 
